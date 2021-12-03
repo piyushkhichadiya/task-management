@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.task-container {
+  width: 100%;
+  padding-top: 50px;
+  overflow-y: auto;
+  &__table-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.modal-main-container {
+  width: 500px !important;
+  height: auto !important;
+}
+
+.add-task-details {
+  padding: 10px;
+  .input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
